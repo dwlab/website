@@ -277,7 +277,7 @@ theme = "elate"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Powererd by NCU DWLAB'
+    copyright = 'Powered by NCU DWLAB'
     links = [
         ["icon-twitter", "#twitter"],
         ["icon-facebook", "#facebook"],
