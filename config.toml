@@ -1,8 +1,8 @@
 # Page settings
 baseurl = "https://dwlab.github.io/"
-title = "MFLAB"
+title = "DWLAB"
 languageCode = "en-us"
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir= true
 theme = "elate"
 
@@ -14,12 +14,13 @@ theme = "elate"
   email = ""
   # Navigation
   [params.navigation]
-    brand = "MFLAB"
+    brand = "DWLAB"
     home = "Home"
     work = "Work"
     testimonials = "Testimonials"
     services = "Services"
     about = "About"
+    members = "Members"
     contact = "Contact"
     
     # You can add custom links before or after the default links
@@ -39,8 +40,8 @@ theme = "elate"
   
   # Hero section
   [params.hero]
-    title = "Do something you love."
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    title = "hero-title"
+    subtitle = ""
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -48,7 +49,7 @@ theme = "elate"
 
   [[params.intro.item]]
     title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Far far away, behind the word mountains."
     url = "#"
     button = "Get In Touch"
     icon = "icon-bulb"
@@ -56,7 +57,7 @@ theme = "elate"
 
   [[params.intro.item]]
     title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Far far away, behind the word mountains."
     url = "#"
     button = "Click Me"
     icon = "icon-wrench"
@@ -64,7 +65,7 @@ theme = "elate"
 
   [[params.intro.item]]
     title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Far far away, behind the word mountains."
     url = "#"
     button = "Why us?"
     icon = "icon-rocket"
@@ -81,7 +82,7 @@ theme = "elate"
   [params.work]
     enable = true
     title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Far far away, behind the word mountains."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
@@ -124,66 +125,73 @@ theme = "elate"
   [params.testimonials]
     enable = false
     title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Far far away, behind the word mountains."
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      quote = "&ldquo;Far far away, behind the word mountains. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
       person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      quote = "&ldquo;Far far away, behind the word mountains. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains.&rdquo;"
       person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      quote = "&ldquo;Far far away, behind the word mountains. &rdquo;"
       person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person3.jpg"
       alt = "Person3"
-    
-
-
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "研究領域"
+    description = "Far far away, behind the word mountains."
 
     [[params.services.item]]
       title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      description = "Far far away, behind the word mountains. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-anchor"
-
     [[params.services.item]]
       title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      description = "Far far away, behind the word mountains. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-layers2"
     [[params.services.item]]
       title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      description = "Far far away, behind the word mountains. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-video2"
-
-      [[params.services.item]]
+    [[params.services.item]]
       title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+      description = "Far far away, behind the word mountains. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
       icon = "icon-monitor"
 
   # About section
   [params.about]
     enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "成員"
+    description = ""
 
     [[params.about.item]]
-      name = "黃駿朋"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "dmoon.jpeg"
-      alt = "黃駿朋"
+      name = "黃祈勝"
+      position = "100 博士生"
+      description = "在分散式雲端平台上對不同巨量天文應用之資料區域性適用策略研究"
+      img = "vic.jpg"
+      alt = ""
+      social = [
+        ["icon-globe2", "https://l.facebook.com/l.php?u=https%3A%2F%2Forcid.org%2F0000-0001-5763-1143&h=ATO-cdRwpMh82YkSF7JCl3M6Gdf0L983gOlMuqEnKBh1JcUvTwrm7n4YhFM-LBGrANxapc1seUnW7b7iMxpVb1rN8BWUP2E0N5me1xStA9ck-hyXxDVonqU8x2c"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "林唐正"
+      position = "106 碩士生"
+      description = "基於分散式運算架構探索時序性小行星軌跡"
+      img = "person2.jpg"
+      alt = ""
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
@@ -191,23 +199,66 @@ theme = "elate"
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
+      name = "黃駿朋"
+      position = "105 碩士生"
+      description = ""
+      img = "dmoon.jpeg"
+      alt = ""
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+    [[params.about.item]]
+      name = "駱鍇頡"
+      position = "105 碩士生"
+      description = "基於分散式運算架構探索時序性小行星軌跡"
+      img = "駱鍇頡.jpg"
+      alt = ""
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+    [[params.about.item]]
+      name = "蘇立鼎"
+      position = "104 碩士生"
+      description = ""
+      img = "蘇立鼎.png"
+      alt = ""
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
         ["icon-github", "#"]
       ]
-
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
+      name = "王敏旭"
+      position = "104 碩士生"
+      description = "整併異質資料庫中的多維度資料之校務研究資料倉儲系統"
+      img = "王敏旭.jpg"
+      alt = ""
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+    [[params.about.item]]
+      name = "陳柏翰"
+      position = "104 碩士生"
+      description = ""
+      img = "person2.jpg"
+      alt = ""
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]      
+    [[params.about.item]]
+      name = "甘貴宇"
+      position = "104 碩士生"
+      description = "基於時序複合性災害資料之避難路徑規劃"
+      img = "甘貴宇.jpg"
+      alt = ""
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
@@ -255,24 +306,24 @@ theme = "elate"
   # Contact section
   [params.contact]
     enable = true
-    map = false
+    map = true
     form = false
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "contact-title"
+    description = "CONTACT US"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "中央大學工程五館 B311"],
+        ["icon-phone", "(03)4227151 #35311"],
+        ["icon-envelope", "mftsai@csie.ncu.edu.tw"],
+        # ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
       ]
 
     name = "Name"
     email = "Email"
     phone = "Phone"
     message = "Message"
-    button = "Send message"
+    button = "Send-message"
 
   # Footer section
   [params.footer]
@@ -293,5 +344,94 @@ theme = "elate"
 [languages.zh]
   languageName = "中文"
   weight = 2
-  description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
-                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
+  description = "測試"
+  [languages.zh.hero]
+    title='hero-title'
+    subtitle = "本實驗室由蔡孟峰教授指導<br/>為一技術發展與應用並重之實驗室<br/>在發展本實驗室持有之核心技術之同時<br/>也注重各種技術應用於不同領域之可能性..."
+  [[languages.zh.intro.item]]
+    title = "核心技術"
+    description = "以各種專門領域已知技術為基礎，改善驗算法之效能及適應性，以及構思各種新式演算法，使其成為實驗室核心技術"
+    url = "#"
+    button = "Get In Touch"
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+
+  [[languages.zh.intro.item]]
+    title = "延伸研究主題"
+    description = "改善資料倉儲之聚合查詢<br/>利用資料探勘提升入侵偵測系統效能<br/>整合社群網路關係之課程推薦系統<br/>複合服務探勘與整合商業流程<br/>P2P網路節點分析與效能提升<br/>"
+    url = "#"
+    button = "Click Me"
+    icon = "icon-wrench"
+    img = "img_8.jpg"
+
+  [[languages.zh.intro.item]]
+    title = "研究著作"
+    description = "Far far away, behind the word mountains."
+    url = "#"
+    button = "Why us?"
+    icon = "icon-rocket"
+    img = "img_10.jpg"
+
+  [languages.zh.services]
+    enable = true
+    title = "研究領域"
+    description = ""
+  
+  [[languages.zh.services.item]]
+    title = "資料庫系統"
+    description = "Far far away, behind the word mountains. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-database"
+
+  [[languages.zh.services.item]]
+    title = "資料倉儲"
+    description = "Far far away, behind the word mountains. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-layers2"
+
+  [[languages.zh.services.item]]
+    title = "資料採礦"
+    description = "Far far away, behind the word mountains. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-diamond"
+
+  [[languages.zh.services.item]]
+    title = "科學計算"
+    description = "Far far away, behind the word mountains. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+    icon = "icon-cogs"
+  
+  [[languages.zh.services.item]]
+    title = "決策支援系統"
+    description = "Far far away, behind the word mountains. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+    icon = "icon-bar-chart"
+
+  # [[languages.zh.services.item]]
+  #   title = "分散式系統"
+  #   description = "Far far away, behind the word mountains. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+  #   icon = "icon-cloud"
+
+  [[languages.zh.services.item]]
+    title = "社群網分析"
+    description = "針對特定社群做縱向垂直式的探討，開發同時具有以下特色之社群網路系統：<br/>1. 多重角色 (multi-role)：針對特定社群透過分析一個個體扮演不同角色 (multi-role) 的情境來抽象化甚至階層化社群。<br/>2. 同儕效應：將個人的興趣偏好，及整體社群的發展及趨勢做整體評估，來預測該社群未來可能有興趣發展之主題的趨勢。3. 適應性 (adaptive)及延展性(scalable)：提出一適當的分類方法及相似度的評估模組，以針對個體的不同角色做歸類。"
+    icon = "icon-users"
+  
+  [languages.zh.work]
+    enable = true
+    title = "專案計畫"
+    description = ""
+    footertext = ''
+
+    [[languages.zh.work.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
+      title = "人文領域應用"
+      subtitle = "與中研院合作，建立漢字構型資料庫分析系統雛型，原始資料經過形聲字員確認系統過濾，確認所有的聲符與音變，在利用資料探勘領域的多層關聯規則探勘方法分析 (Multilevel Association Rules Mining)，得到多個層次的發音組合，用以分析聲符隊中文發音的影響，甚至更低層次的音標隊中文發音的影響，為華語學習者設計一套較為方便的學習方法，並且提供編寫教材的人員參考。"
+
+    [[languages.zh.work.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "社群分析之應用"
+      subtitle = "針對特定社群做縱向垂直式的探討，開發同時具有以下特色之社群網路系統：<br/>1. 多重角色 (multi-role)：針對特定社群透過分析一個個體扮演不同角色 (multi-role) 的情境來抽象化甚至階層化社群。<br/>2. 同儕效應：將個人的興趣偏好，及整體社群的發展及趨勢做整體評估，來預測該社群未來可能有興趣發展之主題的趨勢。3. 適應性 (adaptive)及延展性(scalable)：提出一適當的分類方法及相似度的評估模組，以針對個體的不同角色做歸類。"
+
+    [[languages.zh.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "天文領域之應用"
+      subtitle = "與中央大學天文所合作，將資料倉儲，分散式系統，以及各種分析技術應用天文領域，幫助提升專家之分析效率，探索星空之奧秘。目前已有多項合作計畫進行中，同時積極與各國知名大學進行各式學術交流。"

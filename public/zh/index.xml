@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MFLAB</title>
+    <title>DWLAB</title>
     <link>https://dwlab.github.io/zh/</link>
-    <description>Recent content on MFLAB</description>
+    <description>Recent content on DWLAB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
