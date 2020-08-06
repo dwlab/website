@@ -1,6 +1,6 @@
 [submodule "themes/elate"]
 	path = themes/elate
-	url = https://github.com/saey55/hugo-elate-theme
+	url = https://github.com/dwlab/hugo-elate-theme
 [submodule "public"]
 	path = public
 	url = git@github.com:dwlab/dwlab.github.io.git
