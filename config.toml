@@ -201,7 +201,7 @@ theme = "elate"
     [[params.about.item]]
       name = "黃駿朋"
       position = "105 碩士生"
-      description = ""
+      description = "基於智能合約設計去中心化之有償回饋知識協作平台"
       img = "dmoon.jpeg"
       alt = ""
       social = [
