@@ -185,7 +185,43 @@ theme = "elate"
         ["icon-facebook", "#"],
         ["icon-github", "#"]
       ]
+      
+      [[params.about.item]]
+      name = "李睿宸"
+      position = "107 碩士生"
+      description = "就業表現與學習歷程的因果規則分析"
+      img = "李睿宸.jpg"
+      alt = ""
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
 
+      [[params.about.item]]
+      name = "陳亭儒"
+      position = "107 碩士生"
+      description = "偵測小行星軌跡之分散式合成追蹤法運算設計"
+      img = "陳亭儒.jpg"
+      alt = ""
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+      [[params.about.item]]
+      name = "柯承佑"
+      position = "107 碩士生"
+      description = "以群體行為分析為目的的跨機構交流區塊鏈平台與鏈下隱私資料之相依管理設計"
+      img = "柯承佑.png"
+      alt = ""
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+      
     [[params.about.item]]
       name = "林唐正"
       position = "106 碩士生"
